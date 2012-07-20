@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_name">TrainsUA</string>
+
+    <!-- TITLES -->
+    <string name="title_main_activity">@string/app_name</string>
+    <string name="title_select_station">Выберите станцию</string>
+    <string name="title_reques_history">История запросов</string>
+    <string name="title_trains_schedule">Список поездов</string>
+    <string name="title_train_coaches">Детали поезда</string>
+    <string name="title_train_details">Поезд %s</string>
+
+    <!-- COMMON -->
+
+
+    <!-- PERMISSION -->
+    <string name="permission_write">Разрешение на запись TrainsUA</string>
+
+    <!-- ERROR -->
+    <string name="error_activity_data_toast">Необходимы исходные данные!</string>
+    <string name="error_station_is_empty">Сначала заполните станции!</string>
+    <string name="error_connection">Проблема с подключением. Пожалуйста, проверьте настройки сети.</string>
+
+    <!-- CRASH -->
+    <string name="crash_toast_text">Уууупс! Что-то пошло не так. Спасибо за ваше терпение!</string>
+
+    <!-- FILTER -->
+    <string name="filter_station_from">От</string>
+    <string name="filter_station_to">в</string>
+    <string name="filter_search">Поиск поездов</string>
+
+    <!-- STATIONS -->
+    <string name="select_station_field_hint">Станция</string>
+
+    <!-- SHARE -->
+    <string name="share">Поделиться</string>
+    <string name="share_train_description">Поделиться поездом</string>
+    <string name="share_coach_description">Поделиться вагоном</string>
+
+    <!-- EMPTY -->
+    <string name="empty_station_list">Нет станций</string>
+    <string name="empty_schedule_list">Нет поезда или свободных мест. Попробуйте изменить запрос.</string>
+    <string name="empty_coach_list">Нет вагонов</string>
+
+    <!-- TODO -->
+    <string name="train_coach_num">Вагон № %s</string>
+    <string name="train_coach_price">Цена: ~ %s  грн.</string>
+
+    <!-- TODO -->
+    <string name="stations_loading_message">Загрузка станций …</string>
+    <string name="traint_departure_label">Время отправления</string>
+    <string name="train_arrival_label">Прибытие:</string>
+    <string name="request_created_label">Создано:</string>
+    <string name="request_departure_label">Выезд:</string>
+    <string name="train_places_free">Свободных мест (%s):</string>
+
+</resources>

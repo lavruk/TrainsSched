@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stations">
+        <item>KIEV</item>
+        <item>IVANO-FRANKOVSK</item>
+    </string-array>
+    
+    <string-array name="station_values">
+        <item>2200000</item>
+        <item>2218200</item>
+    </string-array>
+</resources>

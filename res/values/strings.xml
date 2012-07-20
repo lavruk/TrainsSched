@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TrainsUA</string>
+
+    <!-- TITLES -->
+    <string name="title_main_activity">@string/app_name</string>
+    <string name="title_select_station">Select station</string>
+    <string name="title_reques_history">Requests History</string>
+    <string name="title_trains_schedule">Trains List</string>
+    <string name="title_train_coaches">Train Details</string>
+    <string name="title_train_details">Train %s</string>
+
+    <!-- COMMON -->
+
+
+    <!-- PERMISSION -->
+    <string name="permission_write">Write to schedule</string>
+
+    <!-- ERROR -->
+    <string name="error_activity_data_toast">Input data requred!</string>
+    <string name="error_station_is_empty">Fill stations before search!</string>
+    <string name="error_connection">Connectivity Problem. Please verify network settings.</string>
+
+    <!-- CRASH -->
+    <string name="crash_toast_text">Ooooops! Something went wrong. Thank you for your patience!</string>
+
+    <!-- FILTER -->
+    <string name="filter_station_from">From</string>
+    <string name="filter_station_to">To</string>
+    <string name="filter_search">Search trains</string>
+
+    <!-- STATIONS -->
+    <string name="select_station_field_hint">Station</string>
+
+    <!-- SHARE -->
+    <string name="share">Share</string>
+    <string name="share_train_description">Share train</string>
+    <string name="share_coach_description">Share coach</string>
+
+    <!-- EMPTY -->
+    <string name="empty_station_list">No stations</string>
+    <string name="empty_schedule_list">No trains or free places. Try to change the request.</string>
+    <string name="empty_coach_list">No coaches</string>
+
+    <!-- TODO -->
+    <string name="train_coach_num">Coach № %s</string>
+    <string name="train_coach_price">Price: ~%s hrn.</string>
+
+    <!-- TODO -->
+    <string name="stations_loading_message">Loading stations…</string>
+    <string name="traint_departure_label">Departure</string>
+    <string name="train_arrival_label">Arrival</string>
+    <string name="request_created_label">Created:</string>
+    <string name="request_departure_label">Departure:</string>
+    <string name="train_places_free">Free places (%s):</string>
+
+</resources>

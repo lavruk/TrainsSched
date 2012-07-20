@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget" parent="@android:style/Widget" />
+
+    <style name="Widget.StationButton" parent="@android:style/Widget.Button">
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowColor">#CCCCCC</item>
+        <item name="android:shadowRadius">1.2</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/edit_text_holo_light</item>
+    </style>
+
+    <style name="Widget.SearchButton" parent="@android:style/Widget.Button">
+        <item name="android:shadowDy">1.2</item>
+        <item name="android:shadowColor">#CCCCCC</item>
+        <item name="android:shadowRadius">1.2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/btn_default_selector</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingBottom">10dip</item>
+        <item name="android:paddingRight">20dip</item>
+        <item name="android:paddingLeft">20dip</item>
+    </style>
+
+</resources>

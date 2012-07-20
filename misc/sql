@@ -1,0 +1,25 @@
+SELECT * FROM trains  LEFT JOIN trains_schedule as ts ON trains.train_num=ts.train_num
+LEFT JOIN trains_requests as tr ON trains.station_id_from=tr.station_if_from AND trains.station_id_to = tr.station_id_to 
+AND ts.date_departure > tr.date_departue AND tr.date_departure < datetime(tr.date_departure, 'start of day', '+1 day')
+
+SELECT trains.train_num, station_start, station_end, train_model, ts.date_departure, ts.date_arrival, p.places FROM trains  
+LEFT JOIN trains_schedule as ts ON trains.train_num=ts.train_num
+LEFT JOIN trains_requests as tr ON trains.station_id_from=tr.station_id_from 
+AND trains.station_id_to = tr.station_id_to 
+AND ts.date_departure > tr.departure_date 
+AND tr.departure_date < datetime(tr.departure_date, 'start of day', '+1 day') 
+LEFT JOIN (SELECT group_concat(coach_letter||'-'||coach_places) as places, train_num, train_request_id, train_sched_id FROM trains_places) as p 
+ON trains.train_num=p.train_num AND p.train_sched_id = ts._id AND p.train_request_id=17
+WHERE tr._id=17
+
+
+SELECT trains.train_num, station_start, station_end, train_model, ts.date_departure, ts.date_arrival FROM trains  
+LEFT JOIN trains_schedule as ts ON trains.train_num=ts.train_num
+LEFT JOIN trains_requests as tr ON ts.station_id_from=tr.station_id_from 
+AND ts.station_id_to = tr.station_id_to 
+AND ts.date_departure > tr.departure_date 
+AND ts.date_departure < datetime(tr.departure_date, 'start of day', '+1 day')
+
+WHERE tr._id=27
+
+UPDATE stations SET tags = (SELECT lower(old.station_name) FROM stations as old where old.station_id=stations.station_id)

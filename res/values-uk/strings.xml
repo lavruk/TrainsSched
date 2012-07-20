@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_name">TrainsUA</string>
+
+    <!-- TITLES -->
+    <string name="title_main_activity">@string/app_name</string>
+    <string name="title_select_station">Виберіть станцію</string>
+    <string name="title_reques_history">Історія запитів</string>
+    <string name="title_trains_schedule">Список поїздів</string>
+    <string name="title_train_coaches">Деталі поїзда</string>
+    <string name="title_train_details">Поїзд %s</string>
+
+    <!-- COMMON -->
+
+
+    <!-- PERMISSION -->
+    <string name="permission_write">Дозвіл на запис TrainsUA</string>
+
+    <!-- ERROR -->
+    <string name="error_activity_data_toast">Необхідні вихідні дані!</string>
+    <string name="error_station_is_empty">Спочатку заповніть станції!</string>
+    <string name="error_connection">Проблема з підключенням. Будь ласка, перевірте настройки мережі.</string>
+
+    <!-- CRASH -->
+    <string name="crash_toast_text">Уууупс! Щось пішло не так. Дякуємо за ваше терпіння!</string>
+
+    <!-- FILTER -->
+    <string name="filter_station_from">Від</string>
+    <string name="filter_station_to">до</string>
+    <string name="filter_search">Пошук поїздів</string>
+
+    <!-- STATIONS -->
+    <string name="select_station_field_hint">Станція</string>
+
+    <!-- SHARE -->
+    <string name="share">Поділитися</string>
+    <string name="share_train_description">Поділитися поїздом</string>
+    <string name="share_coach_description">Поділитися вагоном</string>
+
+    <!-- EMPTY -->
+    <string name="empty_station_list">Немає станцій</string>
+    <string name="empty_schedule_list">Немає поїзда або вільних місць. Спробуйте змінити запит.</string>
+    <string name="empty_coach_list">Немає вагонів</string>
+
+    <!-- TODO -->
+    <string name="train_coach_num">Вагон № %s</string>
+    <string name="train_coach_price">Ціна: ~ %s грн.</string>
+
+    <!-- TODO -->
+    <string name="stations_loading_message">Завантаження станцій …</string>
+    <string name="traint_departure_label">Час відправлення</string>
+    <string name="train_arrival_label">Прибуття:</string>
+    <string name="request_created_label">Створено:</string>
+    <string name="request_departure_label">Виїзд:</string>
+    <string name="train_places_free">Вільних місць (%s):</string>
+
+</resources>
